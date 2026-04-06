@@ -1,0 +1,101 @@
+---
+import "../styles/global.css";
+import { Check } from "lucide-astro";
+---
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Perfume Attracione Men</title>
+    <!-- Bootstrap CSS -->
+  </head>
+  <body data-name="landingPage">
+    <main id="landingPage">
+      <!-- Hero section -->
+      <section
+        id="hero"
+        class="hero-custom vh-100 d-flex flex-column justify-content-center align-items-center text-center gap-3 p-4"
+      >
+        <div
+          class="container d-flex flex-column justify-content-center align-items-center mb-2"
+        >
+          <h1
+            class="text-dourado-suave fw-bold fs-2 fs-md-3 fs-lg-2 text-center py-3 my-4"
+          >
+            Descubra o Segredo Proibido que Faz Qualquer Mulher se Sentir
+            Irresistivelmente Atraída por Você!
+          </h1>
+          <div class="container">
+            <div class="row justify-content-center align-items-center g-4">
+              <div class="col-12 col-md-6 d-flex justify-content-center">
+                <picture>
+                  <img
+                    src="/images/hero1.png"
+                    alt="Frasco do perfume Attracione Men"
+                    class="img-fluid hero-image"
+                    loading="eager"
+                    decoding="async"
+                  />
+                </picture>
+              </div>
+              <div
+                class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center text-center"
+              >
+                <p class="text-white fs-4 fs-md-5 fs-lg-4 my-4 mx-2 mx-md-4">
+                  A ciência dos feromônios finalmente disponível em um perfume -
+                  Comprovado por milhares de homens e recomendado pelos maiores
+                  especialistas em perfumaria do Brasil
+                </p>
+                <a
+                  href="https://meli.la/2qQS6C3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-decoration-none"
+                >
+                  <button
+                    class="btn btn-vermelho-claro btn-lg fs-6 fs-md-5 fs-lg-4 py-3 px-4 text-white fw-bold rounded-3 d-flex align-items-center justify-content-center gap-2"
+                  >
+                    <Check size={20} /> EXPERIMENTE O PODER DOS FEROMÔNIOS - GARANTA
+                    O SEU ATTRACIONE MEN AGORA
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS (opcional, se precisar de componentes interativos) -->
+    <script
+      type="module"
+      src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      async></script>
+  </body>
+</html>
+
+<style>
+  .hero-custom {
+    background: linear-gradient(0deg, #8e0f14 0%, #210306 100%);
+    width: 100%;
+  }
+
+  .text-dourado-suave {
+    color: var(--douradoSuave);
+  }
+
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 768px) {
+    .hero-image {
+      max-width: 450px;
+    }
+  }
+</style>

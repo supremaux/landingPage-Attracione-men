@@ -1,0 +1,54 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+#landingPage *,
+#landingPage *::before,
+#landingPage *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --vermelhoClaro: #c4161c;
+  --vermelhoEscuro: #8e0f14;
+  --pretoBrilhante: #0e0e0e;
+  --douradoMetalico: #b08b2a;
+  --douradoSuave: #d8c07a;
+  --cinzaNeutro: #f2f2f2;
+  --cinza100: #e0e0e0;
+  --cinza200: #c0c0c0;
+  --cinza300: #a0a0a0;
+  --cinza400: #808080;
+  --cinza500: #606060;
+  --cinza600: #404040;
+  --cinza700: #202020;
+  --cinza800: #101010;
+  --cinza900: #000000;
+  --branco: #ffffff;
+  --preto: #000000;
+}
+
+.btn-vermelho-claro {
+  background-color: var(--vermelhoClaro);
+  color: var(--branco);
+  box-shadow:
+    #000000 0px 4px 6px -1px,
+    #000000 0px 2px 4px -1px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-vermelho-claro:hover {
+  background-color: var(--vermelhoEscuro);
+  color: var(--branco);
+}
+
+@apply .entry-line {
+  border: 1px solid var(--vermelhoClaro);
+  width: 100%;
+  margin: 20px 0;
+}
+
+@apply .entry-line-dark {
+  border: 1px solid var(--pretoBrilhante);
+  width: 100%;
+  margin: 20px 0;
+}
