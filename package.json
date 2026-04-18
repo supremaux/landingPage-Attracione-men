@@ -24,6 +24,6 @@
     "astro-portabletext": "^0.13.0",
     "bootstrap": "^5.3.8",
     "lucide-astro": "^0.556.0",
-    "sass": "^1.99.0"
+    "sharp": "^0.34.5"
   }
 }
