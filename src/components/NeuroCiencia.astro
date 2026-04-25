@@ -1,18 +1,5 @@
 ---
 import { Check, HeartPlus } from "@lucide/astro";
-import sharpModule from "sharp";
-
-// conversão das imagens em Avif
-const convertToAvif = async (inputPath, outputPath) => {
-  try {
-    await sharpModule(inputPath).toFormat("avif").toFile(outputPath);
-    console.log(`Imagem convertida para AVIF: ${outputPath}`);
-  } catch (error) {
-    console.error(`Erro ao converter imagem: ${error}`);
-  }
-};
-
-convertToAvif("./images/neuro1.png", "./images/neuro1.avif");
 ---
 
 <!-- Seção de Neurociência  -->

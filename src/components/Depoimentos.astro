@@ -1,0 +1,186 @@
+---
+import "../styles/global.css";
+---
+
+<!-- Seção de Depoimentos -->
+<section id="depoimentos" class="bg-dark-red">
+  <div
+    class="container-fluid h-full px-0 d-flex flex-column align-items-center justify-content-center"
+  >
+    <!-- Cabeçalho com fundo vermelho e bordas arredondadas -->
+    <div class="container px-4 position-relative mb-5">
+      <div
+        class="bg-vermelho-claro p-4 rounded-bottom-50 w-100 mx-auto"
+        style="height: 200px;"
+      >
+        <h1
+          class="text-white text-center fw-black fs-1 m-0 position-absolute top-50 start-50 translate-middle w-75"
+        >
+          A Transformação na Vida Real: Histórias de Homens que Decidiram
+          Experimentar
+        </h1>
+      </div>
+    </div>
+
+    <!-- Imagem principal (mulher com perfume) -->
+    <div class="d-flex justify-content-center mb-5 p-4 col-lg-8 col-md-10">
+      <img
+        src="/images/depoimentos/depodestaque.png"
+        alt="Attracione Men"
+        class="img-fluid rounded-50 w-100 max-height-100 max-width-[1024px] mx-auto"
+      />
+    </div>
+
+    <!-- Grid de depoimentos -->
+    <div class="container px-4">
+      <div class="row g-4 justify-content-center gap-5">
+        <!-- Depoimento 1 -->
+        <div class="col-lg-5 col-md-10">
+          <div class="card rounded-50 overflow-hidden">
+            <div class="card-body bg-white">
+              <div class="position-relative p-4">
+                <img
+                  src="/images/depoimentos/depo1.png"
+                  alt="Depoimento 1"
+                  class="img-fluid w-100"
+                  style="height: 250px; object-fit: cover;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 2 -->
+        <div class="col-lg-5 col-md-10">
+          <div class="card rounded-50 overflow-hidden">
+            <div class="card-body bg-white">
+              <div class="position-relative p-4">
+                <img
+                  src="/images/depoimentos/depo2.png"
+                  alt="Depoimento 2"
+                  class="img-fluid w-100"
+                  style="height: 250px; object-fit: contain;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 3 -->
+        <div class="col-lg-5 col-md-10">
+          <div class="card rounded-50 overflow-hidden">
+            <div class="card-body bg-white">
+              <div class="position-relative p-4">
+                <img
+                  src="/images/depoimentos/depo3.png"
+                  alt="Depoimento 3"
+                  class="img-fluid w-100"
+                  style="height: 250px; object-fit: cover;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 4 -->
+        <div class="col-lg-5 col-md-10">
+          <div class="card rounded-50 overflow-hidden">
+            <div class="card-body bg-white">
+              <div class="position-relative p-4">
+                <img
+                  src="/images/depoimentos/depo4.png"
+                  alt="Depoimento 4"
+                  class="img-fluid w-100"
+                  style="height: 250px; object-fit: contain;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 5 -->
+        <div class="col-lg-5 col-md-10">
+          <div class="card rounded-50 overflow-hidden">
+            <div class="card-body bg-white">
+              <div class="position-relative p-4">
+                <img
+                  src="/images/depoimentos/depo5.png"
+                  alt="Depoimento 5"
+                  class="img-fluid w-100"
+                  style="height: 250px; object-fit: cover;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 6 -->
+        <div class="col-lg-5 col-md-10">
+          <div class="card rounded-50 overflow-hidden">
+            <div class="card-body bg-white">
+              <div class="position-relative p-4">
+                <img
+                  src="/images/depoimentos/depo6.png"
+                  alt="Depoimento 6"
+                  class="img-fluid w-100"
+                  style="height: 250px; object-fit: contain;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Imagem final (mulher com perfume) -->
+    <div class="d-flex justify-content-center mt-5">
+      <img
+        src="/images/loiradevermelho1.png"
+        alt="Attracione Men"
+        class="img-fluid"
+        style="max-width: 100%; height: auto;"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  :root {
+    --vermelho-escuro: #53080e;
+    --vermelho-claro: #c4161c;
+  }
+
+  #depoimentos {
+    font-family: "Inter", sans-serif;
+    background-color: var(--vermelho-escuro);
+    color: white;
+  }
+
+  .bg-dark-red {
+    background-color: var(--vermelho-escuro);
+  }
+
+  .bg-vermelho-claro {
+    background-color: var(--vermelho-claro);
+  }
+
+  .rounded-50 {
+    border-radius: 50px !important;
+  }
+
+  .rounded-bottom-50 {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 767.98px) {
+    .rounded-50 {
+      border-radius: 20px !important;
+    }
+  }
+</style>

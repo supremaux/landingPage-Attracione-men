@@ -1,17 +1,5 @@
 ---
 import { Check } from "lucide-astro";
-import sharpModule from "sharp";
-
-const convertToAvif = async (inputPath, outputPath) => {
-  try {
-    await sharpModule(inputPath).toFormat("avif").toFile(outputPath);
-    console.log(`Imagem convertida para AVIF: ${outputPath}`);
-  } catch (error) {
-    console.error(`Erro ao converter imagem: ${error}`);
-  }
-};
-
-convertToAvif("./images/hero1.png", "./images/hero1.avif");
 ---
 
 <!-- Hero section -->
