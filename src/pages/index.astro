@@ -4,6 +4,7 @@ import HeroSection from "../components/HeroSection.astro";
 import NeuroCiencia from "../components/NeuroCiencia.astro";
 import Influenciadores from "../components/Influenciadores.astro";
 import Depoimentos from "../components/Depoimentos.astro";
+import CtaFinal from "../components/CtaFinal.astro";
 ---
 
 <html lang="pt-BR">
@@ -15,14 +16,13 @@ import Depoimentos from "../components/Depoimentos.astro";
     <meta name="generator" content={Astro.generator} />
     <title>Perfume Attracione Men</title>
     <!-- Bootstrap CSS -->
-  </head>
-  <body data-name="landingPage">
     <!-- Bootstrap JS (opcional, se precisar de componentes interativos) -->
     <script
       type="module"
       src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
       async></script>
-
+  </head>
+  <body data-name="landingPage">
     <main id="landingPage">
       <!-- Hero section -->
       <HeroSection />
@@ -35,6 +35,9 @@ import Depoimentos from "../components/Depoimentos.astro";
 
       <!-- Depoimentos  -->
       <Depoimentos />
+
+      <!-- CTA Final  -->
+      <CtaFinal />
     </main>
   </body>
 </html>

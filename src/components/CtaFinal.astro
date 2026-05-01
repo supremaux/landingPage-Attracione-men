@@ -1,0 +1,134 @@
+---
+import { ShoppingBag } from "lucide-astro";
+import "../styles/global.css";
+---
+
+<section id="cta-final" class="bg-black text-white xl:py-0 md:py-5 sm:py-10">
+  <div class="container px-0 mx-auto">
+    <div class="row g-0 align-items-center">
+      <!-- Coluna do texto (esquerda) -->
+      <div class="col-lg-6 col-md-12 px-4 px-lg-5">
+        <!-- Título principal -->
+        <h1 class="fw-black text-gold fs-2 text-center text-lg-start my-4">
+          A Única Pergunta que Importa: Como Seria Sua Vida com 47% Mais
+          Confiança nas Interações com Mulheres?
+        </h1>
+
+        <!-- Texto em itálico -->
+        <p class="fs-5 italic text-center text-lg-start mb-5 lh-base">
+          Esta não é uma oferta comum. <strong>Attracione Men</strong> representa
+          a fronteira entre perfumaria tradicional e neurociência aplicada à atração
+          humana.
+        </p>
+
+        <!-- Lista de alertas -->
+        <div class="mb-5">
+          <div class="d-flex align-items-start gap-2 mb-3">
+            <span class="text-gold fs-5">⚠️</span>
+            <p class="mb-0 fs-5">
+              Estoque limitado devido à complexidade de produção dos feromônios
+            </p>
+          </div>
+          <div class="d-flex align-items-start gap-2 mb-3">
+            <span class="text-gold fs-5">⚠️</span>
+            <p class="mb-0 fs-5">
+              Preço especial por tempo indeterminado - sujeito a aumento sem
+              aviso prévio
+            </p>
+          </div>
+          <div class="d-flex align-items-start gap-2">
+            <span class="text-gold fs-4">⚠️</span>
+            <p class="mb-0 fs-5">
+              Demanda crescente 227% após recomendações em vídeos virais
+            </p>
+          </div>
+        </div>
+
+        <!-- Botão -->
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a
+            href="https://meli.la/2qQS6C3"
+            class="text-decoration-none"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              class="btn btn-custom fs-6 xl:fs-6 lg:fs-5 md:fs-4 fw-bold p-4 rounded-4 text-white mb-5"
+            >
+              <ShoppingBag size={85} />
+              QUERO ATIVAR MEU MAGNETISMO NATURAL COMPRAR AGORA COM GARANTIA TOTAL
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Coluna da imagem (direita) -->
+      <div class="col-lg-6 col-md-12 p-0">
+        <img
+          src="/images/loiracomfrasco1.png"
+          alt="Mulher com Attracione Men"
+          class="img-fluid w-100 h-100 object-fit-cover"
+          style="min-height: 600px;"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  :root {
+    --gold: #b08b2a;
+    --vermelho: #c4161c;
+  }
+
+  #cta-final {
+    font-family: "Inter", sans-serif;
+    background-color: #0e0e0e;
+  }
+
+  .text-gold {
+    color: var(--gold) !important;
+  }
+
+  .bg-black {
+    background-color: #0e0e0e;
+  }
+
+  .btn-custom {
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .btn-custom:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+  }
+
+  @media (max-width: 991.98px) {
+    #cta-final .row > div:first-child {
+      order: 2;
+    }
+    #cta-final .row > div:last-child {
+      order: 1;
+      min-height: 400px;
+    }
+    #cta-final h1 {
+      font-size: 2.5rem;
+    }
+    #cta-final p {
+      font-size: 1.2rem;
+    }
+  }
+</style>
