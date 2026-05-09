@@ -1,0 +1,52 @@
+---
+import "../styles/global.css";
+---
+
+<!-- Rodapé -->
+<footer id="footer" class="w-100">
+  <!-- Disclaimer -->
+  <div class="bg-gray d-flex align-items-center justify-content-center py-4">
+    <div class="container">
+      <p class="text-white fs-5 italic text-center mb-0 px-3 lg:px-5 lh-base">
+        Attracione Men é um produto de perfumaria com feromônios. Os resultados
+        podem variar de acordo com a química individual e fatores situacionais.
+        Este produto não substitui tratamento médico ou psicológico. Uso
+        recomendado para maiores de 18 anos.
+      </p>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="bg-black d-flex align-items-center justify-content-center py-3">
+    <div class="container text-center gap-3">
+      <p class="text-white fs-5 mb-0 px-3 lg:px-5">
+        &copy; {new Date().getFullYear()} Perfume Prosa - Todos os direitos reservados.
+        Powered by <a
+          href="https://supremaux.com"
+          class="text-white text-decoration-none cursor-pointer"
+          target="_blank">Suprema</a
+        >
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  #footer {
+    font-family: "Inter", sans-serif;
+  }
+
+  .bg-gray {
+    background-color: #676767;
+  }
+
+  .bg-black {
+    background-color: #000;
+  }
+
+  @media (max-width: 767.98px) {
+    #footer p {
+      font-size: 1rem !important;
+    }
+  }
+</style>
