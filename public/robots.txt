@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Bloqueia possíveis arquivos de log ou scripts desnecessários na pasta raiz pública, se houver
+Disallow: /build/
+Disallow: /_astro/
+
+Sitemap: https://attracione-men.vercel.app/sitemap.xml

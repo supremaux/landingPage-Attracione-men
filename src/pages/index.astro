@@ -6,6 +6,13 @@ import Influenciadores from "../components/Influenciadores.astro";
 import Depoimentos from "../components/Depoimentos.astro";
 import CtaFinal from "../components/CtaFinal.astro";
 import Footer from "../components/Footer.astro";
+
+const title =
+  "Perfume Attracione Men | O Poder da Neurociência no Aroma Masculino";
+const description =
+  "Descubra o Attracione Men, o perfume masculino desenvolvido com base na neurociência para despertar atração e autoconfiança. Potencialize sua presença.";
+const siteUrl = "https://attracione-men.vercel.app/";
+const ogImageUrl = `${siteUrl}/og-image.jpg`; // Certifique-se de colocar uma imagem chamativa nesta pasta
 ---
 
 <html lang="pt-BR">
@@ -15,9 +22,24 @@ import Footer from "../components/Footer.astro";
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content={Astro.generator} />
-    <title>Perfume Attracione Men</title>
-    <!-- Bootstrap CSS -->
-    <!-- Bootstrap JS (opcional, se precisar de componentes interativos) -->
+    <meta name="description" content={description} />
+    <link rel="canonical" href={siteUrl} />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:locale" content="pt_BR" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={siteUrl} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={ogImageUrl} />
+
+    <title>{title}</title>
     <script
       type="module"
       src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"

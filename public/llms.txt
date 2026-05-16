@@ -1,0 +1,15 @@
+# Perfume Attracione Men
+
+> Landing page oficial do Perfume Attracione Men, uma fragrância premium masculina desenvolvida sob a perspectiva da neurociência aplicada ao olfato para aumentar a atração e a autoconfiança.
+
+## Detalhes do Produto
+- **Nome:** Perfume Attracione Men
+- **Nicho:** Perfumaria Masculina / Neurocosmética
+- **Diferencial Competitivo:** Estudo de estímulos olfativos baseados em neurociência que influenciam o subconsciente, comportamento e atratividade.
+
+## Estrutura e Seções da Página
+- **Hero Section:** Proposta de valor clara, impacto visual do produto e chamada para ação imediata.
+- **Neurociência:** Explicação técnica e conceitual sobre como as notas aromáticas ativam o sistema límbico e geram respostas de atração.
+- **Influenciadores:** Prova social com criadores de conteúdo do nicho de estilo e perfumaria testando e aprovando a fragrância.
+- **Depoimentos:** Avaliações reais de clientes validando a fixação, projeção e feedback social do aroma.
+- **CTA Final:** Oferta exclusiva por tempo limitado para conversão e fechamento do pedido.
