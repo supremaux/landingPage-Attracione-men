@@ -5,4 +5,4 @@ Allow: /
 Disallow: /build/
 Disallow: /_astro/
 
-Sitemap: https://attracione-men.vercel.app/sitemap.xml
+Sitemap: https://perfume-attracione-men.vercel.app/sitemap.xml
