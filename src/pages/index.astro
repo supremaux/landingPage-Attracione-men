@@ -6,6 +6,7 @@ import Influenciadores from "../components/Influenciadores.astro";
 import Depoimentos from "../components/Depoimentos.astro";
 import CtaFinal from "../components/CtaFinal.astro";
 import Footer from "../components/Footer.astro";
+import Analytics from "@vercel/analytics/astro";
 
 const title =
   "Perfume Attracione Men | O Poder da Neurociência no Aroma Masculino";
@@ -40,6 +41,7 @@ const ogImageUrl = `${siteUrl}/og-image.jpg`; // Certifique-se de colocar uma im
     <meta property="twitter:image" content={ogImageUrl} />
 
     <title>{title}</title>
+    <Analytics />
     <script
       type="module"
       src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
