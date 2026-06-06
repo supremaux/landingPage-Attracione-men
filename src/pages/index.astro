@@ -40,10 +40,10 @@ const ogImageUrl = `${siteUrl}/og-image.jpg`; // Certifique-se de colocar uma im
     <meta property="twitter:image" content={ogImageUrl} />
 
     <title>{title}</title>
-    <script
-      type="module"
-      src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-      async></script>
+
+    <!-- CSS Crítico -->
+<link rel="preload" as="style" href="/_astro/index.BhFkSgRf.css" />
+    
   </head>
   <body data-name="landingPage">
     <main id="landingPage">
@@ -65,6 +65,11 @@ const ogImageUrl = `${siteUrl}/og-image.jpg`; // Certifique-se de colocar uma im
       <!-- Footer  -->
       <Footer />
     </main>
+
+    <script
+      type="module"
+      src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      defer></script>
   </body>
 </html>
 
