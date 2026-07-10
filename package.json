@@ -12,15 +12,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^5.0.6",
-    "@astrojs/vercel": "^10.0.8",
+    "@astrojs/react": "^6.0.1",
+    "@astrojs/vercel": "^11.0.2",
     "@fontsource-variable/inter": "^5.2.8",
     "@lucide/astro": "^1.7.0",
     "@popperjs/core": "^2.11.8",
     "@types/bootstrap": "^5.2.10",
     "@types/node": "^25.5.2",
     "@types/react": "^19.2.14",
-    "astro": "^6.4.2",
+    "astro": "^7.0.7",
     "astro-bootstrap": "^0.7.2",
     "astro-portabletext": "^0.13.0",
     "bootstrap": "^5.3.8",
